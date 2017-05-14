@@ -54,7 +54,7 @@
                 </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right"></ul>
+                        <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a> </li>
                         <li><a href="#">About a boygirl</a></li>
                         <li class="dropdown">
@@ -65,8 +65,25 @@
                                 <li><a href="#">Tacos</a> </li>
                             </ul>
                         </li>
-                </div>
+                        </ul>
+                    </div>
+
                 </div>
             </nav>
+
+        <header>
+            <div class="jumbotron">
+                <h1 class="text-center>">Hello World</h1>
+                <p class="text-center">Lets Learn some bootstrap!</p>
+                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">One Button</a> </p>
+                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">Two Button</a> </p>
+            </div>
+        </header>
     </div>
-</body>
+    <footer>
+        <div class="container">
+
+         </div>
+    </footer>
+    </body>
+</html>
