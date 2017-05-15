@@ -73,7 +73,16 @@
 
         <header>
             <div class="jumbotron">
-                <h1 class="text-center>">Hello World</h1>
+                <h1 class="text-center">Hello World</h1>
+                <p class="text-center">Lets Learn some bootstrap!</p>
+                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">One Button</a> </p>
+                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">Two Button</a> </p>
+            </div>
+        </header>
+
+        <header>
+            <div class="jumbotron">
+                <h1 class="text-center">Hello World</h1>
                 <p class="text-center">Lets Learn some bootstrap!</p>
                 <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">One Button</a> </p>
                 <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">Two Button</a> </p>
