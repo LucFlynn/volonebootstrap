@@ -79,18 +79,17 @@
                 <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">Two Button</a> </p>
             </div>
         </header>
-
-        <header>
-            <div class="jumbotron">
-                <h1 class="text-center">Hello World</h1>
-                <p class="text-center">Lets Learn some bootstrap!</p>
-                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">One Button</a> </p>
-                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">Two Button</a> </p>
-            </div>
-        </header>
     </div>
     <footer>
-        <div class="container">
+        <div class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object" data-src="images/goal.jpeg">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">Some Text about things that are appropriate to read</h4>
+            </div>
+            <p class="text-right" > Spicy jalapeno bacon ipsum dolor amet culpa turducken id leberkas qui eiusmod kielbasa esse sausage laborum bresaola andouille ullamco short loin tail. Turkey rump swine, ad veniam beef meatloaf salami kevin nisi. Excepteur shankle qui in ball tip chicken. Pork magna fatback, ham hock ipsum culpa dolore incididunt alcatra. Strip steak reprehenderit nisi nostrud. Duis tongue doner bresaola filet mignon.
+                Tenderloin et aliquip, filet mignon alcatra in cow sausage deserunt. Magna pancetta dolore biltong burgdoggen dolor pork belly in exercitation ea consequat in proident. Cupim eu sint officia pork belly voluptate nulla. Flank deserunt esse andouille eiusmod pastrami fatback picanha enim. Doner pork chop ad laboris. Ad duis ham ribeye aliquip pork loin. Prosciutto deserunt brisket, enim salami turducken non cow voluptate spare ribs pork loin pariatur.</p>
 
          </div>
     </footer>
