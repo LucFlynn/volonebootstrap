@@ -34,7 +34,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
-<body class="sfooter">
+<body class="sfooter" body-bg="gray dark">
+<style type="text/css">
+    body { background: darkgrey !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
     <div class="sfooter-content">
 
             <!--Navigation-->
@@ -48,21 +51,22 @@
                                 <span class="icon-bar"></span>
                         </button>
 
+                        <a class="navbar-brand" href="#"><img src="images/toast.jpeg" alt="Tree" width="60" height="30" align="left"/> </a>
 
-                        <p class="navbar-text">That bootstrap challenge though</p>
+                        <p class="navbar-text">Welcome to the wonderful world of toastmasters</p>
 
                 </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a> </li>
-                        <li><a href="#">About a boygirl</a></li>
+                        <li><a href="#">About</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Destinations <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Tacos</a> </li>
-                                <li><a href="#">Tacos</a> </li>
-                                <li><a href="#">Tacos</a> </li>
+                                <li><a href="#">Clubs</a> </li>
+                                <li><a href="#">Philosophy</a> </li>
+                                <li><a href="#">Notable members</a> </li>
                             </ul>
                         </li>
                         </ul>
@@ -73,25 +77,64 @@
 
         <header>
             <div class="jumbotron">
-                <h1 class="text-center">Hello World</h1>
-                <p class="text-center">Lets Learn some bootstrap!</p>
-                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">One Button</a> </p>
-                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">Two Button</a> </p>
+                <h1 class="text-center">Welcome to Toastmasters!</h1>
+                <p class="text-center">Lets get Toasting!</p>
+                <p class="text-center"><a class="btn btn-primary btn-lrg" href="#" role="button">Schedule</a> </p>
             </div>
         </header>
     </div>
-    <footer>
-        <div class="media">
-            <a class="pull-left" href="#">
-                <img class="media-object" data-src="images/goal.jpeg">
-            </a>
-            <div class="media-body">
-                <h4 class="media-heading">Some Text about things that are appropriate to read</h4>
-            </div>
-            <p class="text-right" > Spicy jalapeno bacon ipsum dolor amet culpa turducken id leberkas qui eiusmod kielbasa esse sausage laborum bresaola andouille ullamco short loin tail. Turkey rump swine, ad veniam beef meatloaf salami kevin nisi. Excepteur shankle qui in ball tip chicken. Pork magna fatback, ham hock ipsum culpa dolore incididunt alcatra. Strip steak reprehenderit nisi nostrud. Duis tongue doner bresaola filet mignon.
-                Tenderloin et aliquip, filet mignon alcatra in cow sausage deserunt. Magna pancetta dolore biltong burgdoggen dolor pork belly in exercitation ea consequat in proident. Cupim eu sint officia pork belly voluptate nulla. Flank deserunt esse andouille eiusmod pastrami fatback picanha enim. Doner pork chop ad laboris. Ad duis ham ribeye aliquip pork loin. Prosciutto deserunt brisket, enim salami turducken non cow voluptate spare ribs pork loin pariatur.</p>
 
-         </div>
-    </footer>
+       <main>
+           <div class="container">
+               <div class="row featurette">
+                   <div class="col-md-7 col-md-push-5">
+                       <h2 class="featurette-heading">
+                           We love to practice the skill of speaking in public and seak to offer a variety of ways to accomplish this task.
+                       </h2>
+                       <p class="lead"> Stand up and stand out! </p>
+                   </div>
+                   <div class="col-md-5 col-md-pull-7">
+                       <img class="featurette-image img-responsive center-block" data-src="holder.js/500/500/auto" src="images/confidence.jpeg" data-holder-rendered="true">
+                   </div>
+
+               </div> <!--Rrow featurette-->
+
+               <hr class="feauturette-divider">
+               <div class="row">
+                   <div class="col-md-3 col-sm-6">
+                       <img class="img-circle" src="images/mic.jpeg" alt="lamp" width="160" height="160">
+                       <h2> Mic check</h2>
+                       <p> It looks scary!</p>
+                   </div> <!-- /.col 3 mid 6 -->
+
+                   <div class="col-md-3 col-sm-6">
+                       <img class="img-circle" src="images/toastmeeting.jpeg" alt="lamp" width="160" height="160">
+                       <h2> Community </h2>
+                       <p> But we're here for you. </p>
+                   </div> <!-- /.col 3 mid 6 -->
+
+                   <div class="col-md-3 col-sm-6">
+                       <img class="img-circle" src="images/keepcalm.png" alt="lamp" width="160" height="160">
+                       <h2> All you need</h2>
+                       <p> Keep calm and speak on</p>
+                   </div> <!-- /.col 3 mid 6 -->
+
+                   <div class="col-md-3 col-sm-6">
+                       <img class="img-circle" src="images/tsin.jpeg" alt="lamp" width="160" height="160">
+                       <h2> JOIN US </h2>
+                       <p> That's where the darkness leads and you want to go...</p>
+                   </div> <!-- /.col 3 mid 6 -->
+
+               </div>
+           </div>
+       </main>
+
+
+        <footer class="text-center">
+
+            <div>
+                <p>&copy; 2017 Luc Flynn all day</p>
+            </div>
+        </footer>
     </body>
 </html>
